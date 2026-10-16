@@ -1,0 +1,22 @@
+{
+  "name": "birthday-newsletter-mock-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mock REST API per il servizio newsletter compleanni — nessun backend reale richiesto",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "hono": "^4.6.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
